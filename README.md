@@ -5,8 +5,8 @@ OS is based on Centos 7
 
 Tools included
 
-*Terraform
-*AWS CLI
-*Ansible
+* Terraform
+* AWS CLI
+* Ansible
 
 Requires Virtual Box and Vagrent running on you own PC 

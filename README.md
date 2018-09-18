@@ -1,5 +1,5 @@
 # devops-Vagrant
-A Vagrant VM with Ansible, Docker, Packer and AWScli 
+A Vagrant VM with Ansible, Docker, Packer, GIT and AWScli 
 
 OS is based on Centos 7 
 
@@ -8,6 +8,7 @@ Tools included
 * Terraform
 * AWS CLI
 * Ansible
+* GIT
 
 Requires Virtual Box and Vagrent running on you own PC 
 

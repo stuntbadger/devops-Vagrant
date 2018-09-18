@@ -16,10 +16,10 @@ PACKER_VERSION="1.2.4"
 # install packages
 if [ ${REDHAT_BASED} ] ; then
   yum -y update
-  yum install -y docker ansible unzip wget
+  yum install -y docker ansible unzip wget git
 else 
   apt-get update
-  apt-get -y install docker.io ansible unzip
+  apt-get -y install docker.io ansible unzip git 
 fi
 # add docker privileges
 usermod -G docker ubuntu

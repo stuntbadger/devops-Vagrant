@@ -17,4 +17,10 @@ Virtual Box url https://www.virtualbox.org/wiki/Downloads
 Once Vagrent and Virtual Box are installed 
 download all files in this git repo and run 
 
-Vagrent
+vagrent up 
+
+This will download the centos/7 image and install all the software needed for this demo 
+
+to connect to vm type 
+
+vagrent ssh 

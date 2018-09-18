@@ -10,3 +10,11 @@ Tools included
 * Ansible
 
 Requires Virtual Box and Vagrent running on you own PC 
+
+Vagrant url https://www.vagrantup.com/downloads.html
+Virtual Box url https://www.virtualbox.org/wiki/Downloads
+
+Once Vagrent and Virtual Box are installed 
+download all files in this git repo and run 
+
+Vagrent

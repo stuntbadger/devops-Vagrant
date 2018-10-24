@@ -9,7 +9,7 @@ Tools included
 * AWS CLI
 * Ansible
 * GIT
-* aws-okta
+* AWS-okta
 
 Requires Virtual Box and Vagrent running on you own PC 
 

@@ -1,5 +1,5 @@
 # devops-Vagrant
-A Vagrant VM with Ansible, Docker, Packer, GIT and AWScli 
+A Vagrant VM with Ansible, Docker, Packer, GIT and AWScli , aws-okta
 
 OS is based on Centos 7 
 
@@ -9,6 +9,7 @@ Tools included
 * AWS CLI
 * Ansible
 * GIT
+* aws-okta
 
 Requires Virtual Box and Vagrent running on you own PC 
 

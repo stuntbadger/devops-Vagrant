@@ -34,6 +34,11 @@ fi
 pip install -U awscli
 pip install -U awsebcli
 
+#install go and aws-okta
+yum -y install go
+go get github.com/segmentio/aws-okta
+cp /root/go/bin/aws-okta /usr/local/sbin
+
 #terraform
 T_VERSION=$(/usr/local/bin/terraform -v | head -1 | cut -d ' ' -f 2 | tail -c +2)
 T_RETVAL=${PIPESTATUS[0]}

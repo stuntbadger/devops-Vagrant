@@ -35,9 +35,13 @@ pip install -U awscli
 pip install -U awsebcli
 
 #install go and aws-okta
-yum -y install go
-go get github.com/segmentio/aws-okta
-cp /root/go/bin/aws-okta /usr/local/sbin
+yum install epel-release
+yum -y update 
+yum install go
+yum install  https://packagecloud.io/segment/aws-okta/packages/fedora/28/aws-okta-0.20.0-1.x86_64.rpm/download.rpm 
+#yum -y install go
+#go get github.com/segmentio/aws-okta
+#cp /root/go/bin/aws-okta /usr/local/sbin
 
 #terraform
 T_VERSION=$(/usr/local/bin/terraform -v | head -1 | cut -d ' ' -f 2 | tail -c +2)

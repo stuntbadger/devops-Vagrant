@@ -48,8 +48,8 @@ T_VERSION=$(/usr/local/bin/terraform -v | head -1 | cut -d ' ' -f 2 | tail -c +2
 T_RETVAL=${PIPESTATUS[0]}
 
 #manual hack will need tidying up 
-wget https://releases.hashicorp.com/terraform/0.12.20/terraform_0.12.20_linux_amd64.zip && unzip -o terraform_0.12.20_linux_amd64.zip -d /usr/local/bin && rm terraform_0.12.20_linux_amd64.zip
-wget https://releases.hashicorp.com/packer/1.5.4/packer_1.5.4_freebsd_amd64.zip && unzip -o packer_1.5.4_freebsd_amd64.zip -d /usr/local/bin && packer_1.5.4_freebsd_amd64.zip
+#wget https://releases.hashicorp.com/terraform/0.12.20/terraform_0.12.20_linux_amd64.zip && unzip -o terraform_0.12.20_linux_amd64.zip -d /usr/local/bin && rm terraform_0.12.20_linux_amd64.zip
+#wget https://releases.hashicorp.com/packer/1.5.4/packer_1.5.4_freebsd_amd64.zip && unzip -o packer_1.5.4_freebsd_amd64.zip -d /usr/local/bin && packer_1.5.4_freebsd_amd64.zip
 
 [[ $T_VERSION != $TERRAFORM_VERSION ]] || [[ $T_RETVAL != 0 ]] \
 && wget -q https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip \
